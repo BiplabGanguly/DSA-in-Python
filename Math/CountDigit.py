@@ -16,3 +16,6 @@ def countDigits(n: int):
             count += 1
         n //= 10
     return count
+
+n = int(input())
+print(countDigits(n))
