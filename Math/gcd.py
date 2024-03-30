@@ -17,4 +17,4 @@ dict = {12:18,35:42,1071:462,48:18,20:30}
 
 for key in dict:
     data = gcd(key,dict[key])
-    print('gcd of {} and {} = {}'.format(key, dict[key],data))
+    print(f'gcd of {key} and {dict[key]} = {data}')
